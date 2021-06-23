@@ -3,7 +3,7 @@
     <div>减1:{{count}}</div>
     <button @click="rem">重置</button>
     <button @click="rem1">-111</button>
-    <button @click="rem2">-n</button>
+    <button @click="rem2">-n1111111</button>
   </div>
 </template>
 
