@@ -8,14 +8,14 @@
 
 <script>
 import Addtion from './components/Addition.vue'
-import Subtion from './components/Subtion.vue'
+import Subition from './components/Subition.vue'
 export default {
   data () {
     return {}
   },
   components: {
     'my-addition': Addtion,
-    'my-subtion': Subtion
+    'my-subtion': Subition
   }
 }
 </script>
