@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>加1:{{$store.state.count}}</div>
-    <button @click="btn">+1</button>
+    <button @click="btn">+11</button>
     <button @click="btn1">+n</button>
     <button @click="btn2">延时+n</button>
   </div>
