@@ -24,7 +24,14 @@ export default new Vuex.Store({
       state.count = state.count - step
     }
   },
+  // 处理异步操作
   actions: {
+    addAsync (context) {
+      setTimeout(() => {
+        // 条用mutations里的函数
+        context.commit('add')
+      }, 1000)
+    }
   },
   modules: {
   }
