@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h3>{{$store.getters.showNum}}</h3>
     <div>加1:{{$store.state.count}}</div>
     <button @click="btn">+1111</button>
     <button @click="btn1">+n</button>
